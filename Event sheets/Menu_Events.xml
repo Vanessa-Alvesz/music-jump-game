@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu_Events</name>
+    <events>
+        <event-block sid="541370291324542">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="325972315293305" type="Mouse">
+                    <param id="0" name="Object">play_bot</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="429885382402755" type="play_bot">
+                    <param id="0" name="Width">650</param>
+                    <param id="1" name="Height">450</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="248112309505194">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="973795615030020" type="Mouse">
+                    <param id="0" name="Object">play_bot</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="843356831587158" type="play_bot">
+                    <param id="0" name="Width">620</param>
+                    <param id="1" name="Height">420</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="698091480738309">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="934429315953921" type="Mouse">
+                    <param id="0" name="Object">tutorial_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="459970080874256" type="tutorial_botao">
+                    <param id="0" name="Width">650</param>
+                    <param id="1" name="Height">450</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="199114364309099">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="255604468268326" type="Mouse">
+                    <param id="0" name="Object">tutorial_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="670294447397984" type="tutorial_botao">
+                    <param id="0" name="Width">620</param>
+                    <param id="1" name="Height">420</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="570209995536269">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="931783575881132" type="Mouse">
+                    <param id="0" name="Object">config_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="317581158659162" type="config_botao">
+                    <param id="0" name="Width">325</param>
+                    <param id="1" name="Height">255</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="576261402122162">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="624376345144146" type="Mouse">
+                    <param id="0" name="Object">config_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="576963731990346" type="config_botao">
+                    <param id="0" name="Width">318</param>
+                    <param id="1" name="Height">246</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="420777148367104">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="438500216170377" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">play_bot</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="991312212930916" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="184418013006896">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="717164975771206" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tutorial_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="430563700443202" type="System">
+                    <param id="0" name="Layout">Tutorial</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="326342535417221">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="381653758779398" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">config_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="789773241107616" type="System">
+                    <param id="0" name="Layout">Configuração</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="589347220312865">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="520766436181403" type="Mouse">
+                    <param id="0" name="Object">credito_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="563861358184902" type="credito_botao">
+                    <param id="0" name="Width">166</param>
+                    <param id="1" name="Height">155</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="277066043461720">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="754143427832817" type="Mouse">
+                    <param id="0" name="Object">credito_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="801554432231323" type="credito_botao">
+                    <param id="0" name="Width">158</param>
+                    <param id="1" name="Height">140</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="271041108672645">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="782712028425228" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">credito_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="506469711796203" type="System">
+                    <param id="0" name="Layout">Créditos</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

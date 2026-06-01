@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1douttlyau9k1</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="842501122018627">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="517312889302073" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\Fundo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fundo_menu" sid="590769840409525">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="277784517418631" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\FundoColorido.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="logo_musicjump" sid="393027208826141">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="879634366620215" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\logoMusicJump.png">
+                        <collision-poly>
+                            <point x="0.226563" y="0.339844" />
+                            <point x="0.744141" y="0.383789" />
+                            <point x="0.903646" y="0.5" />
+                            <point x="0.675781" y="0.513672" />
+                            <point x="0.5" y="0.50293" />
+                            <point x="0.319661" y="0.520508" />
+                            <point x="0.140625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="APRENDENDONOTASNORITMO" sid="777197907122691">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="play_text" sid="218434081269832">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tutorial_botao" sid="872463786961571">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341591889041228" speed="5">
+                    <frame duration="1" hotspotX="0.501023" hotspotY="0.501326" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\botão.png">
+                        <collision-poly>
+                            <point x="0.227865" y="0.341797" />
+                            <point x="0.775391" y="0.336914" />
+                            <point x="0.854818" y="0.5" />
+                            <point x="0.748047" y="0.62207" />
+                            <point x="0.251953" y="0.62207" />
+                            <point x="0.160807" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="play_bot" sid="526324221050243">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="208549778861999" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\botão.png">
+                        <collision-poly>
+                            <point x="0.227865" y="0.341797" />
+                            <point x="0.775391" y="0.336914" />
+                            <point x="0.854818" y="0.5" />
+                            <point x="0.748047" y="0.62207" />
+                            <point x="0.251953" y="0.62207" />
+                            <point x="0.160807" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="config_botao" sid="116430426241962">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="521263620790779" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\configuração.png">
+                        <collision-poly>
+                            <point x="0.227865" y="0.341797" />
+                            <point x="0.775391" y="0.336914" />
+                            <point x="0.854818" y="0.5" />
+                            <point x="0.748047" y="0.62207" />
+                            <point x="0.251953" y="0.62207" />
+                            <point x="0.160807" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tutorial_text" sid="567340304086472">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="444650231373368">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="credito_botao" sid="510383395063840">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="312453708917811" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Creditos_text" sid="486182701560515">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="fundo_creditos" sid="360786668296803">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="345656156953246" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500529" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\creditos.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Creditos_texts" sid="971266959707492">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="fundo_cong" sid="771117634196410">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537438981606891" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\Fundo menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fundo_vitoria" sid="983261933635137">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167624573676346" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\Fundo2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="msg_de_vitoria" sid="818873055631854">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="708884207523728">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="555740677609453" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\msg-de-vitoria.png">
+                        <collision-poly>
+                            <point x="0.102214" y="0.15332" />
+                            <point x="0.5" y="0.0527344" />
+                            <point x="0.873698" y="0.189453" />
+                            <point x="0.923828" y="0.5" />
+                            <point x="0.923828" y="0.885742" />
+                            <point x="0.5" y="0.920898" />
+                            <point x="0.0761719" y="0.885742" />
+                            <point x="0.0735677" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="personagem_vitoria" sid="125187261954024">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="104853588328976">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="392542792772570" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\personagem vitoria.png">
+                        <collision-poly>
+                            <point x="0.365234" y="0.24349" />
+                            <point x="0.5" y="0.25" />
+                            <point x="0.732422" y="0.178385" />
+                            <point x="0.575195" y="0.5" />
+                            <point x="0.570313" y="0.713542" />
+                            <point x="0.5" y="0.755859" />
+                            <point x="0.330078" y="0.779948" />
+                            <point x="0.418945" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fundo_gameOver" sid="750680083050087">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="761902291976340" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\Fundo2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botao_vitoria" sid="961135385330715">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846645948683489" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\botão.png">
+                        <collision-poly>
+                            <point x="0.227865" y="0.341797" />
+                            <point x="0.775391" y="0.336914" />
+                            <point x="0.854818" y="0.5" />
+                            <point x="0.748047" y="0.62207" />
+                            <point x="0.251953" y="0.62207" />
+                            <point x="0.160807" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="VoltarAoMenu" sid="142547670730171">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="msg_de_gameoOver" sid="216967775915564">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="817433482076242">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="787928564119695" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\gameOver.png">
+                        <collision-poly>
+                            <point x="0.150391" y="0.225586" />
+                            <point x="0.5" y="0.0556641" />
+                            <point x="0.849609" y="0.225586" />
+                            <point x="0.873698" y="0.5" />
+                            <point x="0.873698" y="0.810547" />
+                            <point x="0.5" y="0.912109" />
+                            <point x="0.13151" y="0.802734" />
+                            <point x="0.13151" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botao_gameOver" sid="986423462649503">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="256166642315897" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\botão.png">
+                        <collision-poly>
+                            <point x="0.227865" y="0.341797" />
+                            <point x="0.775391" y="0.336914" />
+                            <point x="0.854818" y="0.5" />
+                            <point x="0.748047" y="0.62207" />
+                            <point x="0.251953" y="0.62207" />
+                            <point x="0.160807" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Voltar_aoMenu_text" sid="472025466581736">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="fundo_tutorial" sid="862916838229730">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="772657844452105" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\Fundo menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menu_botao" sid="912253284119419">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="885070979953612">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303475859176739" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\botão.png">
+                        <collision-poly>
+                            <point x="0.227865" y="0.341797" />
+                            <point x="0.775391" y="0.336914" />
+                            <point x="0.854818" y="0.5" />
+                            <point x="0.748047" y="0.62207" />
+                            <point x="0.251953" y="0.62207" />
+                            <point x="0.160807" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="voltarAoMenu_tutorial" sid="149035363670180">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite2" sid="387842972061366">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139667971095194" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Créditos_VoltarAoMenu" sid="489350484941008">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="378604594531304">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="801355894376329" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\botao_voltar ao menu.png">
+                        <collision-poly>
+                            <point x="0.169922" y="0.254883" />
+                            <point x="0.830078" y="0.254883" />
+                            <point x="0.961589" y="0.5" />
+                            <point x="0.76888" y="0.65332" />
+                            <point x="0.23112" y="0.65332" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tutorial_voltar" sid="898063917686682">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="774244181635078">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="234524907086679" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\botao_voltar ao menu.png">
+                        <collision-poly>
+                            <point x="0.169922" y="0.254883" />
+                            <point x="0.830078" y="0.254883" />
+                            <point x="0.961589" y="0.5" />
+                            <point x="0.76888" y="0.65332" />
+                            <point x="0.23112" y="0.65332" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Menu.xml</layout>
+        <layout>Tutorial.xml</layout>
+        <layout>Game.xml</layout>
+        <layout>Victory.xml</layout>
+        <layout>GameOver.xml</layout>
+        <layout>Configuração.xml</layout>
+        <layout>Créditos.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Menu_Events.xml</event-sheet>
+        <event-sheet>Tutorial_Events.xml</event-sheet>
+        <event-sheet>Game_Events.xml</event-sheet>
+        <event-sheet>Victory_Events.xml</event-sheet>
+        <event-sheet>GameOver_Events.xml</event-sheet>
+        <event-sheet>Config_Events.xml</event-sheet>
+        <event-sheet>Créditos_Events.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="8" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

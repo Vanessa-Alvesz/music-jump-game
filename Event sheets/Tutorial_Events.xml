@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Tutorial_Events</name>
+    <events>
+        <event-block sid="428041796823363">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="113760344127422" type="Mouse">
+                    <param id="0" name="Object">menu_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="595415336190180" type="menu_botao">
+                    <param id="0" name="Width">630</param>
+                    <param id="1" name="Height">430</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="415961817253093">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="922461929639947" type="Mouse">
+                    <param id="0" name="Object">menu_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="514219158270387" type="menu_botao">
+                    <param id="0" name="Width">620</param>
+                    <param id="1" name="Height">420</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="125552712354877">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="291117762134531" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">menu_botao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="532529559013006" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

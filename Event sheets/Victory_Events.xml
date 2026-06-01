@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Victory_Events</name>
+    <events>
+        <event-block sid="382780178597245">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="906119237029710" type="Mouse">
+                    <param id="0" name="Object">botao_vitoria</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="285203256058685" type="botao_vitoria">
+                    <param id="0" name="Width">650</param>
+                    <param id="1" name="Height">595</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="388668926508294">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="166667212884341" type="Mouse">
+                    <param id="0" name="Object">botao_vitoria</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="883367424204321" type="botao_vitoria">
+                    <param id="0" name="Width">643</param>
+                    <param id="1" name="Height">586</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="503073739645327">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="925413790992105" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_vitoria</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="644365968757955" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
