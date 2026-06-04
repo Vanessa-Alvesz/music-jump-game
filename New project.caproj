@@ -511,6 +511,11 @@
         </object-type>
         <object-type name="PlatFase2" sid="715639629260552">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="843552903104686">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="698886798369357" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma1.png">
@@ -529,6 +534,11 @@
         </object-type>
         <object-type name="Teclado2Fase" sid="990324319302067">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="578257719306835">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="278723164560013" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma3 (2).png">
@@ -578,6 +588,11 @@
         </object-type>
         <object-type name="Plat_falsa" sid="953313634587122">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="448070484288807">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="623790323136725" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma-Quebrada.png">
@@ -595,6 +610,11 @@
         </object-type>
         <object-type name="Plat_fase3" sid="226232023870370">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="840303372331814">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408317276099854" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma1.png">
@@ -613,6 +633,11 @@
         </object-type>
         <object-type name="Sprite6" sid="855341611932236">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="217439566546245">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="391357402098372" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma3 (2).png">
