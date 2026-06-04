@@ -91,7 +91,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="991312212930916" type="System">
-                    <param id="0" name="Layout">Game</param>
+                    <param id="0" name="Layout">Game1</param>
                 </action>
             </actions>
         </event-block>

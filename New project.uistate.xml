@@ -11,7 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Menu</layout>
-        <layout active="1" order="1">Game</layout>
+        <layout order="1">Game1</layout>
+        <layout order="2">Game2</layout>
+        <layout active="1" order="3">Game3</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -46,15 +48,25 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/botao_gameOver/" />
         <folder expanded="1" path="animation-folder/fundo_tutorial/" />
         <folder expanded="1" path="animation-folder/menu_botao/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Créditos_VoltarAoMenu/" />
         <folder expanded="1" path="animation-folder/tutorial_voltar/" />
-        <folder expanded="1" path="animation-folder/Sprite3/" />
-        <folder expanded="1" path="animation-folder/Fundo/" />
-        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Chão/" />
         <folder expanded="1" path="animation-folder/plataforma/" />
-        <folder expanded="1" path="animation-folder/Plat1/" />
-        <folder expanded="1" path="animation-folder/Plat2/" />
-        <folder expanded="1" path="animation-folder/Plat3/" />
+        <folder expanded="1" path="animation-folder/PlatTeclado/" />
+        <folder expanded="1" path="animation-folder/bandeira/" />
+        <folder expanded="1" path="animation-folder/NotaMusical/" />
+        <folder expanded="1" path="animation-folder/BandeiraFinal/" />
+        <folder expanded="1" path="animation-folder/Fundo/" />
+        <folder expanded="1" path="animation-folder/PlatFase2/" />
+        <folder expanded="1" path="animation-folder/Teclado2Fase/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Plat_falsa/" />
+        <folder expanded="1" path="animation-folder/Plat_fase3/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/NotaMsc_2/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
     </folders-expanded>
 </c2uistate>

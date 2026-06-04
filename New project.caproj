@@ -333,14 +333,6 @@
         <object-type name="voltarAoMenu_tutorial" sid="149035363670180">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Sprite2" sid="387842972061366">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139667971095194" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Créditos_VoltarAoMenu" sid="489350484941008">
             <plugin id="Sprite" />
             <behaviors>
@@ -385,23 +377,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="755986555653632">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474688316985423" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Fundo" sid="505930475049800">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634791975430730" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\FundoGame.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite4" sid="588297901199714">
+        <object-type name="Chão" sid="588297901199714">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="961736305064897">
@@ -446,15 +422,97 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Plat1" sid="137271925889065">
+        <object-type name="PlatTeclado" sid="473207981492683">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="179707240664580" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma3 (2).png">
+                        <collision-poly>
+                            <point x="0.192057" y="0.288086" />
+                            <point x="0.807292" y="0.289063" />
+                            <point x="0.876953" y="0.5" />
+                            <point x="0.789714" y="0.68457" />
+                            <point x="0.210286" y="0.68457" />
+                            <point x="0.123698" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bandeira" sid="979177244922423">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="772261609928240" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\BandeiraInicio.png">
+                        <collision-poly>
+                            <point x="0.348958" y="0.523438" />
+                            <point x="0.5" y="0.167969" />
+                            <point x="0.651042" y="0.523438" />
+                            <point x="0.621094" y="0.5" />
+                            <point x="0.528646" y="0.292969" />
+                            <point x="0.5" y="0.740234" />
+                            <point x="0.410156" y="0.384766" />
+                            <point x="0.377604" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NotaMusical" sid="501298608439115">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Solid" sid="625205243823116">
-                    <behavior id="solid" />
+                <behavior-type name="Sine" sid="882676915648184">
+                    <behavior id="Sin" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="724878069454239" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="563659565498834" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\NotaMusical.png">
+                        <collision-poly>
+                            <point x="0.52832" y="0.52832" />
+                            <point x="0.5" y="0.53125" />
+                            <point x="0.706055" y="0.293945" />
+                            <point x="0.723633" y="0.5" />
+                            <point x="0.640625" y="0.640625" />
+                            <point x="0.5" y="0.736328" />
+                            <point x="0.370117" y="0.629883" />
+                            <point x="0.59668" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BandeiraFinal" sid="474346356520641">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="145459640554291" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\BandeiraFinal.png">
+                        <collision-poly>
+                            <point x="0.348958" y="0.523438" />
+                            <point x="0.5" y="0.170898" />
+                            <point x="0.651042" y="0.523438" />
+                            <point x="0.621745" y="0.5" />
+                            <point x="0.529297" y="0.293945" />
+                            <point x="0.5" y="0.740234" />
+                            <point x="0.410156" y="0.384766" />
+                            <point x="0.377604" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fundo" sid="328862075685580">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846749543182064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\FundoGame.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlatFase2" sid="715639629260552">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="698886798369357" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma1.png">
                         <collision-poly>
                             <point x="0.224609" y="0.336914" />
@@ -469,10 +527,76 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Plat2" sid="692961133056290">
+        <object-type name="Teclado2Fase" sid="990324319302067">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="480698809781004" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="278723164560013" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma3 (2).png">
+                        <collision-poly>
+                            <point x="0.192057" y="0.288086" />
+                            <point x="0.807292" y="0.289063" />
+                            <point x="0.876953" y="0.5" />
+                            <point x="0.789714" y="0.68457" />
+                            <point x="0.210286" y="0.68457" />
+                            <point x="0.123698" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="121361062296148">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="912350592187247" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="404369708199234">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="910331278193150" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\FundoGame.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="423349501449890">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="259880223827324" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\FundoGame.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="541330601161072">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="917008894570389" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Plat_falsa" sid="953313634587122">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="623790323136725" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma-Quebrada.png">
+                        <collision-poly>
+                            <point x="0.19987" y="0.299805" />
+                            <point x="0.800781" y="0.298828" />
+                            <point x="0.88151" y="0.5" />
+                            <point x="0.803385" y="0.705078" />
+                            <point x="0.197266" y="0.704102" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Plat_fase3" sid="226232023870370">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408317276099854" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma1.png">
                         <collision-poly>
                             <point x="0.224609" y="0.336914" />
@@ -487,19 +611,66 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Plat3" sid="305554747482859">
+        <object-type name="Sprite6" sid="855341611932236">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="694802372046643" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma1.png">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="391357402098372" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\Plataforma3 (2).png">
                         <collision-poly>
-                            <point x="0.224609" y="0.336914" />
-                            <point x="0.5" y="0.325195" />
-                            <point x="0.775391" y="0.336914" />
-                            <point x="0.806641" y="0.5" />
-                            <point x="0.741536" y="0.612305" />
-                            <point x="0.258464" y="0.612305" />
-                            <point x="0.192708" y="0.5" />
+                            <point x="0.192057" y="0.288086" />
+                            <point x="0.807292" y="0.289063" />
+                            <point x="0.876953" y="0.5" />
+                            <point x="0.789714" y="0.68457" />
+                            <point x="0.210286" y="0.68457" />
+                            <point x="0.123698" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NotaMsc_2" sid="442673364803560">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="840840801473266">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843873783643524" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\NotaMusical.png">
+                        <collision-poly>
+                            <point x="0.52832" y="0.52832" />
+                            <point x="0.5" y="0.53125" />
+                            <point x="0.706055" y="0.293945" />
+                            <point x="0.723633" y="0.5" />
+                            <point x="0.640625" y="0.640625" />
+                            <point x="0.5" y="0.736328" />
+                            <point x="0.370117" y="0.629883" />
+                            <point x="0.59668" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="884691348001808">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="107187686207599">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="407355428012872" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\GitHub\music-jump-game\Backgrounds\NotaMusical.png">
+                        <collision-poly>
+                            <point x="0.52832" y="0.52832" />
+                            <point x="0.5" y="0.53125" />
+                            <point x="0.706055" y="0.293945" />
+                            <point x="0.723633" y="0.5" />
+                            <point x="0.640625" y="0.640625" />
+                            <point x="0.5" y="0.736328" />
+                            <point x="0.370117" y="0.629883" />
+                            <point x="0.59668" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -510,7 +681,9 @@
     <layout-folder>
         <layout>Menu.xml</layout>
         <layout>Tutorial.xml</layout>
-        <layout>Game.xml</layout>
+        <layout>Game1.xml</layout>
+        <layout>Game2.xml</layout>
+        <layout>Game3.xml</layout>
         <layout>Victory.xml</layout>
         <layout>GameOver.xml</layout>
         <layout>Configuração.xml</layout>
@@ -519,11 +692,13 @@
     <event-folder>
         <event-sheet>Menu_Events.xml</event-sheet>
         <event-sheet>Tutorial_Events.xml</event-sheet>
-        <event-sheet>Game_Events.xml</event-sheet>
+        <event-sheet>Game1_Events.xml</event-sheet>
         <event-sheet>Victory_Events.xml</event-sheet>
         <event-sheet>GameOver_Events.xml</event-sheet>
         <event-sheet>Config_Events.xml</event-sheet>
         <event-sheet>Créditos_Events.xml</event-sheet>
+        <event-sheet>Game2_Events.xml</event-sheet>
+        <event-sheet>Game3_Events.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="8" />
