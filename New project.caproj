@@ -176,7 +176,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167624573676346" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\Fundo2.png" />
+                    <frame duration="1" hotspotX="0.304688" hotspotY="0.113889" original-source="C:\Users\vanes\OneDrive\Documentos\Faculdade\MusicJump\Backgrounds\Fundo2.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -696,6 +696,126 @@
                             <point x="0.5" y="0.736328" />
                             <point x="0.370117" y="0.629883" />
                             <point x="0.59668" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="personagem" sid="689693606752335">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370719879732761" speed="5">
+                    <frame duration="1" hotspotX="0.507143" hotspotY="0.415831" original-source="C:\Users\kaique.silva\Downloads\andando_lado_esquerdo.png">
+                        <image-point name="Imagepoint 1" x="0.507143" y="0.415831" />
+                        <collision-poly>
+                            <point x="0.418571" y="0.162765" />
+                            <point x="0.507143" y="0.156076" />
+                            <point x="0.632857" y="0.133779" />
+                            <point x="0.604286" y="0.414716" />
+                            <point x="0.631429" y="0.695652" />
+                            <point x="0.507143" y="0.587514" />
+                            <point x="0.374286" y="0.702341" />
+                            <point x="0.39" y="0.414716" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515845" hotspotY="0.438231" original-source="C:\Users\kaique.silva\Downloads\pulo lado direito.png">
+                        <image-point name="Imagepoint 1" x="0.515845" y="0.438231" />
+                        <collision-poly>
+                            <point x="0.477113" y="0.195059" />
+                            <point x="0.515845" y="0.195059" />
+                            <point x="0.598592" y="0.162549" />
+                            <point x="0.558099" y="0.436931" />
+                            <point x="0.487676" y="0.630689" />
+                            <point x="0.515845" y="0.60078" />
+                            <point x="0.554577" y="0.622887" />
+                            <point x="0.415493" y="0.436931" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500975" hotspotY="0.49967" original-source="C:\Users\kaique.silva\Downloads\ChatGPT Image 10 de jun. de 2026, 12_03_47.png">
+                        <image-point name="Imagepoint 1" x="0.500975" y="0.49967" />
+                        <collision-poly>
+                            <point x="0.355751" y="0.232696" />
+                            <point x="0.5" y="0.24588" />
+                            <point x="0.601364" y="0.261701" />
+                            <point x="0.577973" y="0.499011" />
+                            <point x="0.460039" y="0.640738" />
+                            <point x="0.5" y="0.632828" />
+                            <point x="0.520468" y="0.653922" />
+                            <point x="0.432749" y="0.499011" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="2.81319" hotspotY="1.23729" original-source="C:\Users\kaique.silva\Downloads\inomeado.png">
+                        <image-point name="Imagepoint 1" x="0.5" y="0.501211" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.498537" original-source="C:\Users\kaique.silva\Downloads\ChatGPT Image 10 de jun. de 2026, 10_17_49.png">
+                        <image-point name="Imagepoint 1" x="0.5" y="0.500488" />
+                        <collision-poly>
+                            <point x="0.355751" y="0.232469" />
+                            <point x="0.5" y="0.24564" />
+                            <point x="0.601364" y="0.261445" />
+                            <point x="0.606238" y="0.498524" />
+                            <point x="0.597466" y="0.732969" />
+                            <point x="0.5" y="0.611795" />
+                            <point x="0.397661" y="0.736262" />
+                            <point x="0.397661" y="0.498524" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.47906" hotspotY="0.522142" original-source="C:\Users\kaique.silva\Downloads\ChatGPT Image 10 de jun. de 2026, 09_43_38.png">
+                        <image-point name="Imagepoint 1" x="0.499489" y="0.454171" />
+                        <collision-poly>
+                            <point x="0.326864" y="0.368692" />
+                            <point x="0.47906" y="0.121524" />
+                            <point x="0.573034" y="0.427394" />
+                            <point x="0.613892" y="0.658084" />
+                            <point x="0.47906" y="0.708548" />
+                            <point x="0.347293" y="0.654995" />
+                            <point x="0.365679" y="0.522142" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="personagem2" sid="675579154149635">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="919102722924140" speed="5">
+                    <frame duration="1" hotspotX="0.500975" hotspotY="0.49967" original-source="C:\Users\kaique.silva\Downloads\ChatGPT Image 10 de jun. de 2026, 12_03_47.png">
+                        <image-point name="Imagepoint 1" x="0.500975" y="0.49967" />
+                        <collision-poly>
+                            <point x="0.355751" y="0.232696" />
+                            <point x="0.5" y="0.24588" />
+                            <point x="0.601364" y="0.261701" />
+                            <point x="0.577973" y="0.499011" />
+                            <point x="0.460039" y="0.640738" />
+                            <point x="0.5" y="0.632828" />
+                            <point x="0.520468" y="0.653922" />
+                            <point x="0.432749" y="0.499011" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="2.81319" hotspotY="1.23729" original-source="C:\Users\kaique.silva\Downloads\inomeado.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.498537" original-source="C:\Users\kaique.silva\Downloads\ChatGPT Image 10 de jun. de 2026, 10_17_49.png">
+                        <image-point name="Imagepoint 1" x="0.5" y="0.500488" />
+                        <collision-poly>
+                            <point x="0.355751" y="0.232469" />
+                            <point x="0.5" y="0.24564" />
+                            <point x="0.601364" y="0.261445" />
+                            <point x="0.606238" y="0.498524" />
+                            <point x="0.597466" y="0.732969" />
+                            <point x="0.5" y="0.611795" />
+                            <point x="0.397661" y="0.736262" />
+                            <point x="0.397661" y="0.498524" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.47906" hotspotY="0.522142" original-source="C:\Users\kaique.silva\Downloads\ChatGPT Image 10 de jun. de 2026, 09_43_38.png">
+                        <image-point name="Imagepoint 1" x="0.499489" y="0.454171" />
+                        <collision-poly>
+                            <point x="0.326864" y="0.368692" />
+                            <point x="0.47906" y="0.121524" />
+                            <point x="0.573034" y="0.427394" />
+                            <point x="0.613892" y="0.658084" />
+                            <point x="0.47906" y="0.708548" />
+                            <point x="0.347293" y="0.654995" />
+                            <point x="0.365679" y="0.522142" />
                         </collision-poly>
                     </frame>
                 </animation>
